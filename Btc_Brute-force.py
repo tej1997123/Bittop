@@ -30,7 +30,7 @@ while True:
 
                        "Digibyte: j")
 
-          file.close()
+         file.close()
         break
     else:
         print("trying private private_Key = ", private_Key)
