@@ -31,8 +31,8 @@ while True:
                        "Digibyte: j")
 
          file.close()
-        break
-    else:
+         break
+     else:
         print("trying private private_Key = ", private_Key)
         print("address = ",address)
         continue 
