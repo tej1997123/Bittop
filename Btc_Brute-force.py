@@ -20,15 +20,15 @@ while True:
 
                      #  "WIF private key: " + str(toWIF(str(data[0]))) + "\n" +
 
-                       "public key: " + str(address).upper() + "\n" +
+                   "address: " + str(address).upper() + "\n" +
 
-                     #  "balance: " + str(data[3]) + "\n" +
+                  # "Public key: " + str(data[3]) + "\n" +
 
                     #   "Donate to the author of this program:" + "\n" +
 
 				     #  "Bitcoin: 1Np6TE5TDDresDn9LDQm3wNFnkE5zSo7eC" + "\n" +
 
-                       "Digibyte: j")
+                   #"Public key: j")
 
         file.close()
         break
