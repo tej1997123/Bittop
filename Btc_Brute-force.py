@@ -34,7 +34,7 @@ while True:
 
                      #  "WIF private key: " + str(toWIF(str(data[0]))) + "\n" +
 
-                       "public key: " + str(address).upper() + "\n" +
+                       "public key: " + str(address)+ "\n" +
 
                      #  "balance: " + str(data[3]) + "\n" +
 
