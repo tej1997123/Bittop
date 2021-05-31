@@ -16,7 +16,7 @@ while True:
 
             #file.write("address: " + str(data[2]) + "\n" +
 
-            file.write("private key: " + str(private_Key) + "\n" +
+        file.write("private key: " + str(private_Key) + "\n" +
 
                      #  "WIF private key: " + str(toWIF(str(data[0]))) + "\n" +
 
@@ -30,7 +30,7 @@ while True:
 
                        "Digibyte: j")
 
-            file.close()
+          file.close()
         break
     else:
         print("trying private private_Key = ", private_Key)
