@@ -2,7 +2,7 @@ import blocksmith
 
 address_1 = str("1L12rsfWxJMaiMVz7aM9ExEt69H7aq9Tyw") #1PQc5NNSdvRwyw2RvrrQcBF4jHnmQFRkaL'
 
-private_Key = str(input('Enter Private Key: '))
+#private_Key = str(input('Enter Private Key: '))
 
 sert=0
 
@@ -12,7 +12,7 @@ while True:
 
     paddress_1aphrase.seed_input('qwertyuiopasdfghjklzxcvbnm1234567890') # paddress_1aphrase
 
-  #  private_Key = paddress_1aphrase.generate_key()
+    private_Key = paddress_1aphrase.generate_key()
 
     address = blocksmith.BitcoinWallet.generate_address(private_Key)
 
